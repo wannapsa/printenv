@@ -4,7 +4,8 @@ var app = express();
 
 // Home Page
 app.get('/', function(req, res) {
-    res.send('Hit Root URL');
+  res.contentType('application/json');
+  res.send(process.env);
 });
 
 var port = (process.env.APP_PORT || 3000);
