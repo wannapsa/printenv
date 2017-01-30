@@ -8,6 +8,6 @@ app.get('/', function(req, res) {
   res.send(process.env);
 });
 
-var port = (process.env.APP_PORT || 3000);
+var port = (process.env.APP_PORT || 8080);
 app.listen(port);
 console.log("Node Backend is listening at " + port);
