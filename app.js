@@ -20,6 +20,7 @@ app.get('/', function(req, res) {
   }
 });
 
-var port = (process.env.APP_PORT || 80);
+# var port = (process.env.APP_PORT || 8080);
+var port = (process.env.APP_PORT);
 app.listen(port);
 console.log("Node Backend is listening at " + port);
