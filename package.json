@@ -4,6 +4,7 @@
     },
     "scripts": {
         "start": "node app.js"
+        "test": "APP_PORT=80"
     },
     "main": "app.js"
 }
